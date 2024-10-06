@@ -1,0 +1,133 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	z-index: 100;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	/* Include padding in the element's total width and height */
+	width: 100%;
+	background-color: #BD8B28 !important;
+}
+
+.title {
+	margin: 0;
+}
+
+
+.icons {
+	width: 1.8rem;
+	height: 1.8rem;
+}
+
+@media screen and (max-width: 768px) {
+	.icons {
+		width: 1.3rem;
+		height: 1.3rem;
+	}
+
+	.accesibilityCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 83%;
+		cursor: pointer;
+
+	}
+
+	.languagesCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 81%;
+		cursor: pointer;
+
+	}
+
+	.friendsRequestCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 83%;
+		cursor: pointer;
+
+	}
+
+	.friendsCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 83%;
+		cursor: pointer;
+
+	}
+
+	.twoFaCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 80%;
+		cursor: pointer;
+
+	}
+
+	.QRCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 80%;
+		cursor: pointer;
+
+	}
+}
+
+/* for tablets */
+@media screen and (max-width: 1024px) {
+	.accesibilityCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 90%;
+		cursor: pointer;
+
+	}
+
+	.languagesCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 90%;
+		cursor: pointer;
+
+	}
+
+	.friendsRequestCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 90%;
+		cursor: pointer;
+
+	}
+
+	.friendsCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 87%;
+		cursor: pointer;
+
+	}
+
+	.twoFaCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 90%;
+		cursor: pointer;
+
+	}
+
+	.QRCloseButton {
+		position: fixed;
+		top: -1%;
+		left: 90%;
+		cursor: pointer;
+
+	}
+}
