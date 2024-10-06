@@ -7,15 +7,15 @@ This repository gathers all the projects done for the Core Curriculum at 42 Wolf
 - **Description**: Recreation of key functions from the C standard library (`<string.h>`, `<stdlib.h>`, `<ctype.h>`, etc.).
 - **Skills Developed**: Deep understanding of memory management, string manipulation, and data structures in C.
 
-### 2. get_next_line
+### 2. Get_next_line
 - **Description**: A function that reads a line from a file descriptor until reaching a newline or the end of the file.
 - **Skills Developed**: File handling, buffer management, and dynamic memory allocation.
 
-### 3. ft_printf
+### 3. Ft_printf
 - **Description**: Custom implementation of the C `printf` function, handling multiple conversion specifiers like `%d`, `%s`, `%x`, etc.
 - **Skills Developed**: Variadic functions, formatting, and output stream management.
 
-### 4. pipex
+### 4. Pipex
 - **Description**: A program that simulates the Unix shell `pipe` functionality, connecting multiple command outputs to inputs using pipes.
 - **Skills Developed**: Process management, piping, redirection, and working with multiple file descriptors.
 
@@ -23,23 +23,23 @@ This repository gathers all the projects done for the Core Curriculum at 42 Wolf
 - **Description**: Linux server configuration project where a virtual machine is configured with essential security features.
 - **Skills Developed**: System administration, setting up firewalls, SSH, UFW, and managing users and permissions.
 
-### 6. push_swap
+### 6. Push_swap
 - **Description**: Sorting data on a stack using a set of predefined operations and writing an algorithm to do it in as few moves as possible.
 - **Skills Developed**: Algorithm optimization, stack manipulation, and complexity analysis.
 
-### 7. so_long
+### 7. So_long
 - **Description**: A 2D game in which the player moves through a tile-based map, collects items, and reaches an exit.
 - **Skills Developed**: Game development, event handling, 2D rendering, and basic AI.
 
-### 8. minishell
+### 8. Minishell
 - **Description**: Creation of a simple Unix shell supporting execution of commands, pipes, redirection, and environment variables.
 - **Skills Developed**: Parsing, process control, signal handling, and job management.
 
-### 9. philosophers
+### 9. Philosophers
 - **Description**: Implementation of the classical "Dining Philosophers" problem to explore concurrency and avoid deadlock.
 - **Skills Developed**: Multi-threading, mutexes, and avoiding race conditions and deadlocks.
 
-### 10. cub3d
+### 10. Cub3d
 - **Description**: A 3D game engine using raycasting (inspired by Wolfenstein 3D), where the player navigates through a maze-like environment.
 - **Skills Developed**: 3D rendering, raycasting, graphics programming with the MiniLibX library.
 
